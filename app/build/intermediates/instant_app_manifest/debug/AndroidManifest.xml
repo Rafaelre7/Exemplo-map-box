@@ -33,13 +33,25 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.solinftec.exemplo_mapbox.Main2Activity" />
-        <activity android:name="com.solinftec.exemplo_mapbox.MainActivity" >
+        <activity android:name="com.solinftec.exemplo_mapbox.view.TextViewDinamicoActivity" />
+        <activity android:name="com.solinftec.exemplo_mapbox.view.FullImageActivity" />
+        <activity android:name="com.solinftec.exemplo_mapbox.view.SelecaoActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.solinftec.exemplo_mapbox.view.GridViewActivity" />
+        <activity android:name="com.solinftec.exemplo_mapbox.view.MainActivity" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
         </activity>
 
         <provider

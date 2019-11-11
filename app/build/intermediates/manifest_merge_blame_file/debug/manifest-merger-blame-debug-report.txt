@@ -40,7 +40,7 @@
 22-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:12:22-65
 23
 24    <application
-24-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:7:5-22:19
+24-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:7:5-34:19
 25        android:allowBackup="true"
 25-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:8:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -58,41 +58,59 @@
 33        android:testOnly="true"
 34        android:theme="@style/AppTheme" >
 34-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:13:9-40
-35        <activity android:name="com.solinftec.exemplo_mapbox.Main2Activity" />
-35-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:14:9-60
-35-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:14:19-48
-36        <activity android:name="com.solinftec.exemplo_mapbox.MainActivity" >
-36-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:15:9-21:20
-36-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:15:19-47
-37            <intent-filter>
-37-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:16:13-20:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:17:17-69
-38-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:17:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:19:17-77
-40-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:19:27-74
-41            </intent-filter>
-42        </activity>
-43
-44        <provider
-44-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:19:9-23:39
-45            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
-45-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:20:13-93
-46            android:authorities="com.solinftec.exemplo_mapbox.mapboxtelemetryinitprovider"
-46-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:21:13-79
-47            android:exported="false"
-47-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:22:13-37
-48            android:initOrder="100" />
-48-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:23:13-36
+35        <activity android:name="com.solinftec.exemplo_mapbox.view.TextViewDinamicoActivity" />
+35-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:14:9-76
+35-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:14:19-64
+36        <activity android:name="com.solinftec.exemplo_mapbox.view.FullImageActivity" />
+36-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:15:9-60
+36-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:15:19-57
+37        <activity android:name="com.solinftec.exemplo_mapbox.view.SelecaoActivity" >
+37-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:16:9-22:20
+37-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:16:19-55
+38            <intent-filter>
+38-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:17:13-21:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:18:17-69
+39-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:18:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:20:17-77
+41-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:20:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.solinftec.exemplo_mapbox.view.GridViewActivity" />
+44-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:23:9-59
+44-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:23:19-56
+45        <activity android:name="com.solinftec.exemplo_mapbox.view.MainActivity" >
+45-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:24:9-33:20
+45-->C:\Users\Rafael Pimenta\StudioProjects\ExemploMapBox\app\src\main\AndroidManifest.xml:24:19-52
+46
+47            <!-- <intent-filter> -->
+48            <!-- <action android:name="android.intent.action.MAIN" /> -->
 49
-50        <service
-50-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:25:9-27:72
-51            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
-51-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:26:13-92
-52            android:permission="android.permission.BIND_JOB_SERVICE" />
-52-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:27:13-69
-53    </application>
-54
-55</manifest>
+50
+51            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+52            <!-- </intent-filter> -->
+53
+54        </activity>
+55
+56        <provider
+56-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:19:9-23:39
+57            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+57-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:20:13-93
+58            android:authorities="com.solinftec.exemplo_mapbox.mapboxtelemetryinitprovider"
+58-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:21:13-79
+59            android:exported="false"
+59-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:22:13-37
+60            android:initOrder="100" />
+60-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:23:13-36
+61
+62        <service
+62-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:25:9-27:72
+63            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+63-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:26:13-92
+64            android:permission="android.permission.BIND_JOB_SERVICE" />
+64-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Rafael Pimenta\.gradle\caches\transforms-2\files-2.1\6c0fc7777333ef5a3e150953aa1a4f44\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:27:13-69
+65    </application>
+66
+67</manifest>

@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Rafael Pimenta\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_cascading_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_details.xml.flat",
+        "source": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\src\\main\\res\\layout\\image_details.xml"
+    },
+    {
         "merged": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -52,6 +56,10 @@
         "source": "C:\\Users\\Rafael Pimenta\\.gradle\\caches\\transforms-2\\files-2.1\\ec46d46483209e31543cb4692e558027\\jetified-mapbox-android-sdk-8.4.0\\res\\layout\\mapbox_view_image_marker.xml"
     },
     {
+        "merged": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_grid_view.xml.flat",
+        "source": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\src\\main\\res\\layout\\activity_grid_view.xml"
+    },
+    {
         "merged": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\Rafael Pimenta\\.gradle\\caches\\transforms-2\\files-2.1\\7ddf3b3453ff2ae36284abc49da050c2\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
     },
@@ -80,12 +88,20 @@
         "source": "C:\\Users\\Rafael Pimenta\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_text_view_dinamico.xml.flat",
+        "source": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\src\\main\\res\\layout\\activity_text_view_dinamico.xml"
+    },
+    {
         "merged": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_mapbox_infowindow_content.xml.flat",
         "source": "C:\\Users\\Rafael Pimenta\\.gradle\\caches\\transforms-2\\files-2.1\\ec46d46483209e31543cb4692e558027\\jetified-mapbox-android-sdk-8.4.0\\res\\layout\\mapbox_infowindow_content.xml"
     },
     {
         "merged": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_selecao.xml.flat",
+        "source": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\src\\main\\res\\layout\\activity_selecao.xml"
     },
     {
         "merged": "C:\\Users\\Rafael Pimenta\\StudioProjects\\ExemploMapBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
